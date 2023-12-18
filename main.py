@@ -6,9 +6,9 @@ import requests
 
 c = tinytuya.Cloud(
         apiRegion="eu", 
-        apiKey="5nkgk7ymdqx8pcvqu9m3", 
-        apiSecret="2e3ec86384024cda9ded1f07fdb8d490", 
-        apiDeviceID="bf14abece2e472121cfe0b")
+        apiKey="API KEY", 
+        apiSecret="SECRET KEY", 
+        apiDeviceID="DEVICE ID")
 
 # Display list of devices
 def get_device_list():

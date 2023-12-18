@@ -31,8 +31,8 @@ def send_msg(curr_power):
                 # MQTT broker configuration
         broker_url = "thingsboard.cloud"
         broker_port = 1883  # Default MQTT port
-        #username = "2EO0t4sN6Dh7ksz6Iwz4"
-        username = "26ElUyfrUdSqNeO25gBH"
+        
+        username = "USERNAME"
         topic = "v1/devices/me/telemetry"
         #payload = '{"temperature"}100}'
 
